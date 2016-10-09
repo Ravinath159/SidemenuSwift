@@ -21,5 +21,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func menuButtonAction(_ sender: AnyObject) {
+        
+        let appDelegate  = UIApplication.shared.delegate as! AppDelegate
+        let containerVC = appDelegate.window!.rootViewController as! ContainerViewController
+        containerVC.toggleLeftPanel()
+    }
 }
 
