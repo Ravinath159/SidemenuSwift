@@ -22,14 +22,16 @@ class LoginViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func forgotAction(_ sender: AnyObject) {
     }
-    */
+    @IBAction func loginAction(_ sender: AnyObject) {
+    }
 
+    @IBAction func signUpActon(_ sender: AnyObject) {
+        
+        let signUpVc = storyboard?.instantiateViewController(withIdentifier: "signUp") as! SignUpViewController
+        self.present(signUpVc, animated:true, completion:nil)
+    }
+    @IBAction func forgot_Action(_ sender: AnyObject) {
+    }
 }

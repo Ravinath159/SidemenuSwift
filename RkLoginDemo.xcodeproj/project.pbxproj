@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B541A551DAB8AA0004ABD63 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B541A541DAB8AA0004ABD63 /* SignUpViewController.swift */; };
 		8459D7801DAA53C000E842FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459D77F1DAA53C000E842FD /* AppDelegate.swift */; };
 		8459D7821DAA53C000E842FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459D7811DAA53C000E842FD /* ViewController.swift */; };
 		8459D7851DAA53C000E842FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8459D7831DAA53C000E842FD /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B541A541DAB8AA0004ABD63 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		8459D77C1DAA53C000E842FD /* RkLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RkLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8459D77F1DAA53C000E842FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8459D7811DAA53C000E842FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				8459D7AF1DAA5A8E00E842FD /* ContainerViewController.swift */,
 				8459D7AD1DAA5A1100E842FD /* HomeViewController.swift */,
 				8459D7B31DAA757B00E842FD /* LoginViewController.swift */,
+				3B541A541DAB8AA0004ABD63 /* SignUpViewController.swift */,
 				8459D7831DAA53C000E842FD /* Main.storyboard */,
 				8459D7861DAA53C000E842FD /* Assets.xcassets */,
 				8459D7881DAA53C000E842FD /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8459D7B41DAA757B00E842FD /* LoginViewController.swift in Sources */,
+				3B541A551DAB8AA0004ABD63 /* SignUpViewController.swift in Sources */,
 				8459D7B21DAA6D1000E842FD /* HumOSBaseViewController.swift in Sources */,
 				8459D7821DAA53C000E842FD /* ViewController.swift in Sources */,
 				8459D7801DAA53C000E842FD /* AppDelegate.swift in Sources */,
@@ -519,6 +523,7 @@
 				8459D7A61DAA53C000E842FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8459D7A71DAA53C000E842FD /* Build configuration list for PBXNativeTarget "RkLoginDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +532,7 @@
 				8459D7A91DAA53C000E842FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8459D7AA1DAA53C000E842FD /* Build configuration list for PBXNativeTarget "RkLoginDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +541,7 @@
 				8459D7AC1DAA53C000E842FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
