@@ -25,7 +25,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
      
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
+        let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
         
        // cell.textLabel?.text = self.items[indexPath.row]
         
@@ -38,9 +38,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let btn = UIButton(type: UIButtonType.custom)
-//        btn.tag = indexPath.row
-//        self.onCloseMenuClick(btn)
+
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
