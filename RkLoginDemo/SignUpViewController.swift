@@ -24,7 +24,7 @@ class SignUpViewController: UIViewController {
 
 
     @IBAction func signUpAction(_ sender: AnyObject) {
-        
+
         navigationController?.popToRootViewController(animated: true)
 
     }

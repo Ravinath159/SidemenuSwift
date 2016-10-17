@@ -10,7 +10,6 @@ import UIKit
 
 class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource{
     var arrayOfNames:[String] = []
-
     @IBOutlet weak var cellLBL: UILabel!
     @IBOutlet weak var cellImg: UITableViewCell!
     @IBOutlet weak var tableView: UITableView!
@@ -38,7 +37,8 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

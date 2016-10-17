@@ -25,6 +25,11 @@ class LoginViewController: UIViewController {
     @IBAction func forgotAction(_ sender: AnyObject) {
     }
     @IBAction func loginAction(_ sender: AnyObject) {
+        
+        let x = "XYZ"
+        UserSession.shared.accessToken = x
+        dismiss(animated: true, completion: nil)
+        
     }
 
     @IBAction func signUpActon(_ sender: AnyObject) {
